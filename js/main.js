@@ -10,16 +10,13 @@ $(function () {
     slidesToShow: 1,
   });
 
-  $('.menu__btn, menu a').on('click', function () {
+  $('.menu__btn, .menu a').on('click', function () {
 
     $('.header__inner').toggleClass('header__inner--active')
 
   });
 
-  
-
-  
-
+   
   var mixer = mixitup('.gallery__content');
 
  
